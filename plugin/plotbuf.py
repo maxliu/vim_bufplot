@@ -13,6 +13,10 @@ def isFloat(fstr):
 
 #print list(vim.current.buffer)
 def Plotbuffer(b, n0):
+    """
+    b : buffer contains numbers need to plot
+    n0: current cursor posioin 
+    """
     n = n0
 
     while True:
